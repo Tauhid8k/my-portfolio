@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .banner-col,
+  .banner-socials,
+  .banner-links {
+    justify-content: center;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-img-section {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner-content h1 {
+    font-size: 3rem;
+  }
+}
